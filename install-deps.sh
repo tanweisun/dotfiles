@@ -12,7 +12,7 @@ curl -L https://get.rvm.io | bash -s stable --ruby
 # https://github.com/isaacs/nave
 # needs npm, obviously.
 # TODO: I think i'd rather curl down the nave.sh, symlink it into /bin and use that for initial node install.
-npm install -g nave
+#npm install -g nave
 
 
 # homebrew!
@@ -33,13 +33,13 @@ chmod +x ~/code/z/z.sh
 
 # https://github.com/dronir/SpotifyControl
 # Spotify Controll Script
-cd ~/code
-git clone git://github.com/dronir/SpotifyControl.git
+#cd ~/code
+#git clone git://github.com/dronir/SpotifyControl.git
 
 # https://github.com/jeroenbegyn/VLCControl
 # VLC Controll Script
-cd ~/code
-git clone git://github.com/jeroenbegyn/VLCControl.git
+#cd ~/code
+#git clone git://github.com/jeroenbegyn/VLCControl.git
 
 
 # my magic photobooth symlink -> dropbox. I love it.
@@ -52,7 +52,7 @@ git clone git://github.com/jeroenbegyn/VLCControl.git
 
 
 # for the c alias (syntax highlighted cat)
-sudo easy_install Pygments
+#sudo easy_install Pygments
 
 
 # chrome canary as default
