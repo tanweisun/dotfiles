@@ -1,6 +1,6 @@
 # PATH like a bawss
       PATH=/usr/local/bin
-#PATH=$PATH:~/.rvm/bin
+PATH=$PATH:~/.rvm/bin
 PATH=$PATH:~/code/git-friendly
 #PATH=$PATH:$(brew --prefix coreutils)/libexec/gnubin
 PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin
