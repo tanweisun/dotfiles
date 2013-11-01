@@ -7,7 +7,7 @@ function installcask() {
 }
 
 installcask dropbox
-installcask google-chrome
+#installcask google-chrome
 installcask imagealpha
 installcask imageoptim
 installcask iterm2
@@ -17,3 +17,5 @@ installcask sublime-text
 installcask the-unarchiver
 installcask vlc
 installcask qq
+installcask evernote
+installcask firefox

@@ -12,6 +12,8 @@ alias slt='open -a "Sublime Text 2"'
 # also/or do this:
 # ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
+#laravel
+alias art='php artisan'
 
 # be nice
 #alias please=sudo
