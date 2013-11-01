@@ -1,13 +1,7 @@
 # up to you (me) if you want to run this as a file or copy paste at your leisure
 
 
-# https://github.com/jamiew/git-friendly
-# the `push` command which copies the github compare URL to my clipboard is heaven
-bash < <( curl https://raw.github.com/jamiew/git-friendly/master/install.sh)
 
-# https://rvm.io
-# rvm for the rubiess
-#curl -L https://get.rvm.io | bash -s stable --ruby
 
 # https://github.com/isaacs/nave
 # needs npm, obviously.
@@ -20,6 +14,13 @@ bash < <( curl https://raw.github.com/jamiew/git-friendly/master/install.sh)
 ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
 
 
+# https://github.com/jamiew/git-friendly
+# the `push` command which copies the github compare URL to my clipboard is heaven
+bash < <( curl https://raw.github.com/jamiew/git-friendly/master/install.sh)
+
+# https://rvm.io
+# rvm for the rubiess
+curl -L https://get.rvm.io | bash -s stable --ruby
 
 # https://github.com/rupa/z
 # z, oh how i love you
