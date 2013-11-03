@@ -31,6 +31,10 @@ chmod +x ~/code/z/z.sh
 
 # z binary is already referenced from .bash_profile
 
+# goagent
+cd ~/code
+git clone https://github.com/goagent/goagent.git
+
 
 # https://github.com/dronir/SpotifyControl
 # Spotify Controll Script
