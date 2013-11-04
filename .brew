@@ -23,7 +23,8 @@ brew install homebrew/dupes/grep
 brew tap josegonzalez/homebrew-php
 
 brew install php55
-brew install mcrypt
+brew install php55-mcrypt
+brew install php55-xdebug
 
 # Install everything else
 brew install ack
@@ -32,6 +33,7 @@ brew install rename
 brew install tree
 
 brew install node
+brew install composer
 
 # Remove outdated versions from the cellar
 brew cleanup
