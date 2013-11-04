@@ -7,10 +7,16 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+# dotfiles folder
+alias dot="cd ~/code/dotfiles"
+
 # programs
 alias slt='open -a "Sublime Text 2"'
 # also/or do this:
 # ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+
+# goagent
+alias go="sudo python ~/code/goagent/local/proxy.py"
 
 #laravel
 alias art='php artisan'
