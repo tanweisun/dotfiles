@@ -12,3 +12,8 @@ rm -r Pristine\ Packages
 ln -s ~/Dropbox/appdata/sublime/Installed\ Packages ./Installed\ Packages
 ln -s ~/Dropbox/appdata/sublime/Packages ./Packages
 ln -s ~/Dropbox/appdata/sublime/Pristine\ Packages ./Pristine\ Packages
+
+# Synchronize Photoshop Presets
+cd /Applications/Adobe\ Photoshop\ CS6
+rm -r Presets
+ln -s ~/Dropbox/appdata/photoshop/Presets ./Presets
