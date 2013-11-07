@@ -17,3 +17,8 @@ ln -s ~/Dropbox/appdata/sublime/Pristine\ Packages ./Pristine\ Packages
 cd /Applications/Adobe\ Photoshop\ CS6
 rm -r Presets
 ln -s ~/Dropbox/appdata/photoshop/Presets ./Presets
+
+# Synchronize Apache Configuration
+cp ~/Dropbox/appdata/apache/tanweisun.conf /etc/apache2/users
+
+cd ~
