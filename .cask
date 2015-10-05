@@ -18,6 +18,6 @@ installcask macvim
 installcask vlc
 #installcask qq
 #installcask evernote
-#installcask firefox
+installcask firefox
 installcask calibre
 installcask filezilla
