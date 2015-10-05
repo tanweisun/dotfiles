@@ -19,10 +19,10 @@ alias slt='open -a "Sublime Text 2"'
 # ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
 # goagent
-alias go="sudo python ~/code/goagent/local/proxy.py"
+#alias go="sudo python ~/code/goagent/local/proxy.py"
 
 #laravel
-alias art='php artisan'
+#alias art='php artisan'
 
 # be nice
 #alias please=sudo

@@ -19,3 +19,8 @@ export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export HOMEBREW_GITHUB_API_TOKEN="8dad3d591cfdefb7d01f4a398535a29adde7eeeb"
+
+# Set Bash Color Schema
+export CLICOLOR=1
+export TERM=xterm-256color
+export PS1='\[\e[01;35m\]\u \[\e[01;32m\]\h \w\$\[\e[00m\] '

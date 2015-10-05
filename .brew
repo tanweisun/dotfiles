@@ -1,41 +1,44 @@
 #!/bin/bash
 
+# Install Homebrew
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 # Make sure we’re using the latest Homebrew
-brew update
+#brew update
 
 # Upgrade any already-installed formulae
-brew upgrade
+#brew upgrade
 
 # Install GNU core utilities (those that come with OS X are outdated)
-brew install coreutils
-echo "Don’t forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH."
+#brew install coreutils
+#echo "Don’t forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH."
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
-brew install findutils
+#brew install findutils
 # Install Bash 4
 brew install bash
 
 # Install wget with IRI support
-brew install wget --enable-iri
+#brew install wget --enable-iri
 
 # Install more recent versions of some OS X tools
-brew tap homebrew/dupes
-brew install homebrew/dupes/grep
-brew tap josegonzalez/homebrew-php
+#brew tap homebrew/dupes
+#brew install homebrew/dupes/grep
 
-brew install php55
-brew install php55-mcrypt
-brew install php55-xdebug
+#brew tap josegonzalez/homebrew-php
+#brew install php55
+#brew install php55-mcrypt
+#brew install php55-xdebug
 
-brew install mysql
+#brew install mysql
 
 # Install everything else
-brew install ack
+#brew install ack
 brew install git
-brew install rename
-brew install tree
+#brew install rename
+#brew install tree
 
-brew install node
-brew install composer
+#brew install node
+#brew install composer
 
 # Remove outdated versions from the cellar
 brew cleanup
